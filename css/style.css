@@ -94,12 +94,37 @@ body {
     content: '';
     position: absolute;
     background: #000;
-    width: 230px;
-    height: 230px;
-    top: -25%;
+    width: 250px;
+    height: 250px;
+    top: -33%;
     bottom: 0;
     right: 0;
-    left: -25%;
+    left: -33%;
     border-radius: 50%;
     transform: rotate();
+}
+
+.rotate__b {
+    font-size: 38px;
+    position: absolute;
+    color: #fff;
+    top: -55px;
+    left: 0px;
+    transform: rotate(-40deg);
+}
+
+.rotate__m {
+    font-size: 38px;
+    position: absolute;
+    color: #fff;
+    top: -70px;
+}
+
+.rotate__w {
+    font-size: 38px;
+    position: absolute;
+    color: #fff;
+    top: -55px;
+    right: 0px;
+    transform: rotate(40deg);
 }
