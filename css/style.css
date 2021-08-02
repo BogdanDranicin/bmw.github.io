@@ -111,6 +111,7 @@ body {
     top: -55px;
     left: 0px;
     transform: rotate(-40deg);
+    animation: 5s linear 0s normal none infinite running circle;
 }
 
 .rotate__m {
@@ -127,4 +128,13 @@ body {
     top: -55px;
     right: 0px;
     transform: rotate(40deg);
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(-40deg);
+    }
+    100% {
+        transform: rotate(-40deg);
+    }
 }
